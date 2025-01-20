@@ -39,8 +39,11 @@ export default function allProduct(){
                   <li>Socks</li>
                   <li>Accessories &amp; Equipment</li>
                 </ul>
+
+                
                  
                  <div className="h-[1705px] mt-[110px]">
+
                   
                   <div className="h-[163px] border-t-[1px] border-b-[1px] border-s-[#E5E5E5]">
                   <div className="flex h-[48px] w-[188.16px]">
