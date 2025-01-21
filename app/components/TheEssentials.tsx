@@ -22,7 +22,7 @@ export default function TheEssentials() {
             alt="Men's"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 text-sm font-medium text-black bg-white rounded-full">
-            Men's
+            Men`&apos;s
           </button>
         </div>
 
@@ -36,7 +36,7 @@ export default function TheEssentials() {
             alt="Women's"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 text-sm font-medium text-black bg-white rounded-full">
-            Women's
+            Women`&apos;s
           </button>
         </div>
 
@@ -50,7 +50,7 @@ export default function TheEssentials() {
             alt="Kids'"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 text-sm font-medium text-black bg-white rounded-full">
-            Kids'
+            Kid`&apos;s
           </button>
         </div>
       </div>
@@ -92,12 +92,12 @@ export default function TheEssentials() {
 
         {/* Kids */}
         <div>
-          <h2 className="text-lg font-medium mb-4">Kids'</h2>
+          <h2 className="text-lg font-medium mb-4">Kids</h2>
           <ul className="space-y-2 text-[#757575]">
             <li>Infant & Toddler Shoes</li>
-            <li>Kids' Shoes</li>
-            <li>Kids' Jordan Shoes</li>
-            <li>Kids' Basketball Shoes</li>
+            <li>Kids Shoes</li>
+            <li>Kids Jordan Shoes</li>
+            <li>Kids Basketball Shoes</li>
           </ul>
         </div>
       </div>

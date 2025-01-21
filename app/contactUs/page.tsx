@@ -40,7 +40,7 @@ export default function contactpg() {
             Electron, Maestro
           </p>
           <p className="text-[15px] font-normal mt-5">
-            If you enter your PAN information at checkout, you'll be able to pay
+            If you enter your PAN information at checkout, you`&apos;ll be able to pay
             for your order with PayTM or a local credit or debit card.
           </p>
           <p className="text-[15px] font-normal mt-5">Apple Pay</p>
@@ -52,7 +52,7 @@ export default function contactpg() {
               Nike Members
             </Link>
             can store multiple debit or credit cards in their profile for faster
-            checkout. If you're not already a Member,{" "}
+            checkout. If you`&apos;re not already a Member,{" "}
             <Link href="#" className="underline">
               join us
             </Link>{" "}
@@ -89,7 +89,7 @@ export default function contactpg() {
           <div className="mt-4">
             <p className="text-[15px] font-bold">
               Can I pay for my order with multiple methods?
-              <span className="font-normal"> No, payment for Nike orders can't be split between multiple payment methods.</span>
+              <span className="font-normal"> No, payment for Nike orders can`&apos;t be split between multiple payment methods.</span>
             </p>
           </div>
 
@@ -103,12 +103,12 @@ export default function contactpg() {
           </div>
 
           <div className="mt-3">
-            <p className="text-[16px] font-bold">Why don't I see Apple Pay as an option?</p>
+            <p className="text-[16px] font-bold">Why don`&apos;t I see Apple Pay as an option?</p>
             <p className="text-[16px] font-normal mt-2">
-              To see Apple Pay as an option in the Nike App or on Nike.com, you'll
+              To see Apple Pay as an option in the Nike App or on Nike.com, you`&apos;ll
               need to use a compatible Apple device running the latest OS, be signed
               in to your iCloud account, and have a supported card in your Wallet.
-              Additionally, you'll need to use Safari to use Apple Pay on Nike.com.
+              Additionally, you`&apos;ll need to use Safari to use Apple Pay on Nike.com.
             </p>
           </div>
 
@@ -135,7 +135,7 @@ export default function contactpg() {
 
             <div className="mt-5">
               <p className="text-[16px] font-medium underline">
-                <Link href="#">WHAT ARE NIKE'S DELIVERY OPTIONS?</Link>
+                <Link href="#">WHAT ARE NIKE`&apos;S DELIVERY OPTIONS?</Link>
               </p>
               <p className="text-[16px] font-medium underline mt-5">
                 <Link href="#">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</Link>
@@ -185,7 +185,7 @@ export default function contactpg() {
               className="mx-auto"
               alt="img"
             />
-            <h1 className="font-medium text-[15px]">We'll reply within</h1>
+            <h1 className="font-medium text-[15px]">We`&apos;ll reply within</h1>
             <p className="text-[15px] font-normal">five business days</p>
           </div>
 
