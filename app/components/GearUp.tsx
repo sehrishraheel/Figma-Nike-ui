@@ -1,5 +1,6 @@
 import Image from "next/image";
 import productDetails from "../productsDetail/page";
+import React from "react";
 
 export default function GearUp() {
   return (

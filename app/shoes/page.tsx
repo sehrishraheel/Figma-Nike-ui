@@ -5,6 +5,7 @@ import { urlFor } from "@/sanity/lib/image";
 import { allProducts, four } from "@/sanity/lib/queries";
 import { Product } from "@/types/products";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const SHOES = () => {
@@ -27,6 +28,8 @@ const SHOES = () => {
             key={product._id}
             className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200"
           >
+
+            <Link href={`/product/${product.slug.current}`}>
             {product.image && (
               <Image
                 src={urlFor(product.image).url()}
@@ -42,6 +45,7 @@ const SHOES = () => {
             <p className="text-gray-500 mt-2">
               {product.price ? `$${product.price}` : "Price not avilable"}
             </p>
+            </Link>
           </div>
         ))}
       </div>

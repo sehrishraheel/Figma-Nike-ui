@@ -3,9 +3,9 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https', // Protocol define karein
-        hostname: 'cdn.sanity.io', // Image domain
-        pathname: '/**', // All paths under this domain allowed
+        protocol: 'https', 
+        hostname: 'cdn.sanity.io', 
+        pathname: '/**',
       },
     ],
   },

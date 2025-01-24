@@ -1,6 +1,7 @@
 import Image from "next/image";
 import productDetails from '../productsDetail/page';
 import { FaSliders, FaAngleDown, FaAngleUp } from "react-icons/fa6"; 
+import React from "react";
 
 export default function allProduct() {
   return (
