@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nike UI - Dynamic Website with Sanity CMS & Data Migration
 
-## Getting Started
+Description
 
-First, run the development server:
+This project is a Nike-themed dynamic website integrated with Sanity CMS for easy content management. It also includes a data migration feature to transfer old data smoothly into the new system.
 
-```bash
+Tech Stack
+
+Frontend: React.js / Next.js
+
+Backend: Node.js / Express
+
+CMS: Sanity.io
+
+Database: MongoDB / PostgreSQL
+
+Styling: Tailwind CSS / Styled Components
+
+
+Installation
+
+1. Clone the Repository
+
+git clone https://github.com/sehrishraheel/figma-nike-ui.git
+cd nike-ui-sanity
+
+2. Install Dependencies
+
+npm install
+# OR
+yarn install
+
+3. Set Up Environment Variables
+
+Create a .env file and add the required API keys and credentials:
+
+SANITY_PROJECT_ID=your_project_id
+SANITY_DATASET=production
+SANITY_API_TOKEN=your_sanity_api_token
+DATABASE_URL=your_database_url
+
+4. Start the Development Server
+
 npm run dev
-# or
+# OR
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Data Migration Process
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Export Existing Data
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you have old data in Sanity CMS, export it using:
 
-## Learn More
+sanity dataset export production backup.tar.gz
 
-To learn more about Next.js, take a look at the following resources:
+Import Data to New Sanity Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+sanity dataset import backup.tar.gz production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Usage
 
-## Deploy on Vercel
+Customize the Nike-style UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Manage content using Sanity CMS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Transfer old data smoothly using data migration
+
+
+Project Structure
+
+/nike-ui-sanity
+│── /src
+│   ├── /components
+│   ├── /pages
+│   ├── /styles
+│── /sanity
+│── /migrations
+│── .env
+│── package.json
+│── README.md
+
+Features
+
+✅ Fully Responsive Nike UI
+✅ Dynamic Content via Sanity CMS
+✅ Smooth Data Migration Process
+✅ Modern Tech Stack (React, Next.js, Sanity)
+
+Contributing
+
+To contribute, follow these steps:
+
+1. Fork the repository
+
+
+2. Create a new branch (feature-branch-name)
+
+
+3. Make your changes and commit them
+
+
+4. Submit a pull request
